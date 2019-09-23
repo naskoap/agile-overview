@@ -1,0 +1,1142 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Agile Overview</title>
+
+		<meta name="description" content="An introduction to the agile methodology">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/simple.css" id="theme">
+
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<div class="slides">
+
+				<section>
+					<h1>14 Days of Agile</h1>
+					<p>
+						<small>Kicking ass one sprint at a time!</small>
+					</p>
+				</section>
+
+				<section>
+					<section>
+						<div class="general">
+							<h2>General Info</h2>
+							<aside class="notes"></aside>
+						</div>
+					</section>
+
+					<section>
+						<div class="roles">
+						<h3> The Roles </h3>
+						<table summary="The Roles" border="1">
+						<colgroup>
+							<col align="center">
+							<col align="center">
+							<col align="center">
+							<col align="center">
+						</colgroup>
+						<thead valign="middle">
+						<tr>
+							<th align="center" valign="middle" id="team">Team</th>
+							<th align="center" valign="middle" id="dev">Devs</th>
+							<th align="center" valign="middle" id="pmo">Product Owner</th>
+							<th align="center" valign="middle" id="sm">Scrum Master</th>
+						</tr>
+						</thead>
+						<tbody valign="middle">
+						<tr>
+							<td align="center" valign="middle">Includes Dev, QE, PM, PMO</td>
+							<td align="center" valign="middle" class="fragment highlight-red">
+								The people that make the user story a reality. This includes QE.
+							</td>
+							<td align="center" valign="middle">Person responsible for the direction of the product</td>
+							<td align="center" valign="middle">Facilitator of the process</td>
+						</tr>
+						<tr>
+							<td align="center" valign="middle"></td>
+							<td align="center" valign="middle"></td>
+							<td align="center" valign="middle" class="fragment highlight-blue">Owns backlog priority
+							</td>
+							<td align="center" valign="middle">Information radiator</td>
+						</tr>
+						<tr>
+							<td align="center" valign="middle"></td>
+							<td align="center" valign="middle"></td>
+							<td align="center" valign="middle"> Usually responsible for writing user stories</td>
+							<td align="center" valign="middle"></td>
+						</tr>
+						</tbody>
+						</table>
+						</div>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2> Obstacles are Not Roadblocks </h2>
+					</section>
+
+					<section>
+						<table>
+							<colgroup>
+								<col align="center">
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="center" valign="middle"> Product owner is not always a single person </th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>
+										A User Story Owner isn’t necessarily a Product person. An
+										Engineer might be the one to represent a user story during
+										grooming. An example of this might be a story created
+										by Eng for paying down some technical debt.
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<aside class="notes"></aside>
+					</section>
+
+					<section>
+						<table>
+							<colgroup>
+								<col align="center">
+							</colgroup>
+							<thead>
+							<tr>
+								<th align="center" valign="middle"> Scrum Master may not always be a PMO </th>
+							</tr>
+							</thead>
+							<tbody>
+							<tr>
+								<td>
+									Being a geographically dispersed team, it may not always
+									be possible to have PMO act as SM. Another person may fill
+									the role and work closely with PMO in those cases.
+								</td>
+							</tr>
+							</tbody>
+						</table>
+						<aside class="notes"></aside>
+					</section>
+
+					<section>
+						<table>
+							<colgroup>
+								<col align="center">
+							</colgroup>
+							<thead>
+							<tr>
+								<th align="center" valign="middle"> Devs are versatile </th>
+							</tr>
+							</thead>
+							<tbody>
+							<tr>
+								<td>
+									Devs may need to do activity that isn’t coding such as work
+									on requirements or docs. That’s OK and can still have
+									stories for the sprints.
+								</td>
+							</tr>
+							</tbody>
+						</table>
+						<aside class="notes"></aside>
+					</section>
+
+					<section>
+						<table>
+							<colgroup>
+								<col align="center">
+							</colgroup>
+							<thead>
+							<tr>
+								<th align="center" valign="middle"> Apart but together </th>
+							</tr>
+							</thead>
+							<tbody>
+							<tr>
+								<td>
+									Agile was built around co-location. A high level of
+									communication and togetherness are keys to success. Use
+									tools as much as possible to better communicate and
+									foster a sense of teamwork. The daily stand-up is great for
+									togetherness. Email as a last option.
+								</td>
+							</tr>
+							</tbody>
+						</table>
+						<aside class="notes"></aside>
+					</section>
+
+				</section>
+
+				<section>
+					<section>
+						<h2> Meetings</h2>
+						<small> In a nutshell </small>
+						<aside class="notes"></aside>
+					</section>
+					<section>
+						<div class="sprint-planning">
+							<table>
+								<thead>
+									<tr>
+										<th align="center" valign="middle"> Sprint Planning </th>
+									</tr>
+								</thead>
+								<tbody>
+								<tr>
+									<td>
+										<ul>
+											<li>Duration: 1-4 hours on the first day of the sprint</li>
+											<li>Mandatory: Devs, Scrum Master</li>
+											<li>Optional: Product Owner should be “on call” to answer questions</li>
+										</ul>
+									</td>
+								</tr>
+								</tbody>
+							</table>
+							<aside class="notes"></aside>
+						</div>
+					</section>
+					<section>
+						<div class="standup">
+							<table>
+								<thead>
+								<tr>
+									<th align="center" valign="middle"> Daily Stand-up </th>
+								</tr>
+								</thead>
+								<tbody>
+								<tr>
+									<td>
+										<ul>
+											<li>Duration: 15 mins max each day of the sprint</li>
+											<li>Mandatory: Devs, Scrum Master</li>
+											<li>Optional: Product Owner</li>
+										</ul>
+									</td>
+								</tr>
+								</tbody>
+							</table>
+							<aside class="notes"></aside>
+						</div>
+					</section>
+					<section>
+						<div class="backlog">
+							<table>
+								<thead>
+								<tr>
+									<th align="center" valign="middle"> Backlog Refinement</th>
+								</tr>
+								</thead>
+								<tbody>
+								<tr>
+									<td>
+										<ul>
+											<li>Duration: 1 hour twice a sprint or as needed</li>
+											<li>Mandatory: Product Owner</li>
+											<li>Optional: Scrum Master</li>
+										</ul>
+									</td>
+								</tr>
+								</tbody>
+							</table>
+							<aside class="notes"></aside>
+						</div>
+					</section>
+					<section>
+						<div class="grooming">
+							<table>
+								<thead>
+								<tr>
+									<th align="center" valign="middle"> Backlog Grooming </th>
+								</tr>
+								</thead>
+								<tbody>
+								<tr>
+									<td>
+										<ul>
+											<li>Duration: 1 hour twice a sprint</li>
+											<li>Mandatory: Devs, Scrum Master and Product Owner</li>
+										</ul>
+									</td>
+								</tr>
+								</tbody>
+							</table>
+							<aside class="notes"></aside>
+						</div>
+					</section>
+					<section>
+						<div class="retro">
+							<table>
+								<thead>
+								<tr>
+									<th align="center" valign="middle"> Retrospective </th>
+								</tr>
+								</thead>
+								<tbody>
+								<tr>
+									<td>
+										<ul>
+											<li>Duration: 1 hour on the last day of the sprint</li>
+											<li>Mandatory: Devs, Scrum Master</li>
+											<li>Optional: Product Owner is optional but highly encouraged to be there</li>
+										</ul>
+									</td>
+								</tr>
+								</tbody>
+							</table>
+							<aside class="notes"></aside>
+						</div>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2> Meetings </h2>
+						<small> Explained </small>
+						<aside class="notes"></aside>
+					</section>
+					<section>
+						<h2> Sprint Planning</h2>
+							<table class="sprint-objectives" summary="Sprint Planning Objectives" border="1">
+								<colgroup>
+									<col align="center">
+								</colgroup>
+								<thead valign="middle">
+									<tr class="goal">
+										 <th align="center" vertical-align="middle"> Goal </th>
+										 <td align="left" valign="middle">
+											Agree on work to be completed during the sprint and create a plan to
+											achieve the goal by creating tasks that will meet the acceptance criteria
+											for each story in the sprint.
+										 </td>
+									</tr>
+									<tr class="method">
+										 <th align="left"> Method </th>
+										 <td align="left" valign="middle">
+											Team chooses which stories they will commit to for the sprint by selecting
+											from the top of the product backlog. Ideally stories are broken down into tasks and
+											sized in hours. Tasking and sizing allows the team to gut-check the amount of work
+											they took on from the product backlog.
+										 </td>
+									</tr>
+								<tr class="artifact">
+									 <th align="left" valign="middle"> Artifact </th>
+									 <td align="left" valign="middle">
+										 The team should produce <a href="https://www.mountaingoatsoftware.com/agile/scrum/meetings/sprint-planning-meeting">
+										 a sprint goal and a sprint backlog </a> by the end of
+										 sprint planning.
+									 </td>
+								</tr>
+								</thead>
+							</table>
+					</section>
+					<section>
+						<h2> Daily Stand-up </h2>
+						<table class="daily-standup" summary="Daily Stand-up" border="1">
+							<colgroup>
+								<col align="center">
+							</colgroup>
+							<thead vertical-align=middle>
+							<tr class="goal">
+								<th align="center"> Goal </th>
+								<td align="left" valign="middle">
+									By focusing on what each person accomplished yesterday and will accomplish today,
+									the team gains an excellent understanding of what work has been done and what work
+									remains. The daily scrum meeting is not a status update meeting in which a boss is
+									collecting information about who is behind schedule. Rather, it is a meeting in
+									which team members make commitments to each other.
+								</td>
+							</tr>
+							<tr class="method">
+								<th align="left"> Method </th>
+								<td align="left" valign="middle">
+									Devs answer to each other the following three questions:
+									<ul>
+										<li> What did you do yesterday? </li>
+										<li> What will you do today? </li>
+										<li> Are you blocked by any impediments? </li>
+									</ul>
+								</td>
+							</tr>
+							<tr class="artifact">
+								<th align="left" valign="middle"> Artifact </th>
+								<td align="left" valign="middle">
+									Clear understanding of the work for the day by the team.
+								</td>
+							</tr>
+							</thead>
+						</table>
+					</section>
+					<section>
+						<h2> Backlog Prep </h2>
+						<table class="backlog-prep" summary="Backlog Prep" border="1">
+							<colgroup>
+								<col align="center">
+							</colgroup>
+							<thead vertical-align=middle>
+								<tr class="goal">
+									<th align="center"> Goal </th>
+									<td align="left" valign="middle">
+										User story rank is set by Product. Stories at the top of the backlog are ready to be
+										groomed by the team by having a good title, description and acceptance criteria.
+									</td>
+								</tr>
+								<tr class="method">
+									<th align="left"> Method </th>
+									<td align="left" valign="middle">
+										Product reviews new stories and defects and ranks them in the product backlog.
+										They edit stories for clarity and create new stories as needed.
+									</td>
+								</tr>
+								<tr class="artifact">
+									<th align="left" valign="middle"> Artifact </th>
+									<td align="left" valign="middle">
+										Product backlog is ready for grooming.
+									</td>
+								</tr>
+							</thead>
+						</table>
+					</section>
+					<section>
+						<h2> Backlog Grooming </h2>
+						<table class="backlog-grooming" summary="Backlog Grooming" border="1">
+							<colgroup>
+								<col align="center">
+							</colgroup>
+							<thead>
+								<tr class="goal">
+									<th align="center"> Goal </th>
+									<td align="left">
+										Review <a href="https://www.mountaingoatsoftware.com/agile/scrum/scrum-tools/product-backlog">
+										product backlog </a> items and have a meeting of the minds between Product
+										Owner and team. Update stories as needed. Stories are sized.
+									</td>
+								</tr>
+								<tr class="method">
+									<th align="left"> Method </th>
+									<td align="left" valign="middle">
+										Scrum Master steps through unsized stories starting with the highest ranked
+										item in the product backlog. Team reviews and sizes story.
+									</td>
+								</tr>
+								<tr class="artifact">
+									<th align="left" valign="middle"> Artifact </th>
+									<td align="left" valign="middle">
+										Stories are sized using story points.
+									</td>
+								</tr>
+							</thead>
+						</table>
+					</section>
+					<section>
+						<h2> Retrospective </h2>
+						<table class="retrospective" summary="Retrospective" border="1">
+							<colgroup>
+								<col align="center">
+							</colgroup>
+							<thead>
+							<tr class="goal">
+								<th align="center"> Goal </th>
+								<td align="left">
+									Reflect on the sprint to allow the team to inspect and adapt.
+								</td>
+							</tr>
+							<tr class="method">
+								<th align="left"> Method </th>
+								<td align="left" valign="middle">
+									<a href="https://www.mountaingoatsoftware.com/agile/scrum/meetings/sprint-retrospective">
+										Retrospectives </a> are facilitated by the Scrum Master and can vary based on the
+									personal style of the Scrum Master. The following items are usually touched on
+									during the retro:
+									<ul>
+										<li> Things the team wants to start doing, stop doing and/or continue doing. </li>
+										<li> What went well, what didn’t go so well, things to try and escalations. </li>
+									</ul>
+								</td>
+							</tr>
+							<tr class="artifact">
+								<th align="left" valign="middle"> Artifact </th>
+								<td align="left" valign="middle">
+									Happy, healthy, high-performing team.
+								</td>
+							</tr>
+							</thead>
+						</table>
+					</section>
+				</section>
+					<section transition="convex">
+
+						<section>
+							<h2> Sprint Demo </h2>
+							<aside class="notes"></aside>
+						</section>
+
+						<section>
+							<table class="sprint-demo" summary="Sprint Demo" border="1">
+								<colgroup>
+									<col align="center">
+								</colgroup>
+								<thead>
+									<tr class="description">
+										<th align="center"> What is a sprint demo? </th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td align="left">
+											Each team should end the sprint with a demonstration of the working software
+											they produced in the sprint. This is a meeting driven by the team themselves
+											and should last less than an hour. It is an informal, festive occasion to celebrate
+											the great work that the team did. <div class="fragment highlight-red">Only fully finished stories that meet all of the
+											acceptance criteria should be shown at the demo. </div>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</section>
+
+						<section>
+							<table class="sprint-demo" summary="What a sprint demo is not" border="1">
+								<colgroup>
+									<col align="center">
+								</colgroup>
+								<thead>
+									<tr class="description2">
+										<th align="center"> What a sprint demo is not </th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td align="left" valign="middle">
+											This is not a meeting for the Product Owner to accept the story (this will have
+											already occurred during the sprint). It also isn’t a debate about the merit of a
+											story.<div class="fragment highlight-blue">Feedback is always welcome but best
+											handled offline with the Product Owner where a follow-on story can be created
+											for future sprints.</div>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</section>
+
+						<section>
+							<table class="sprint-demo" summary="Challenges" border="1">
+								<colgroup>
+									<col align="center">
+								</colgroup>
+								<thead>
+									<tr class="challenges">
+										<th align="center" valign="middle"> Challenges </th>
+									</tr>
+								</thead>
+								<tbody>
+								<tr class="challenges">
+									<td align="left" valign="middle">
+										This is a meeting that is most impactful if the majority of participants are
+										there in-person. Having distributed teams and/or audiences makes having a great
+										demo more challenging but is still worth having in most cases. It should be a team
+										decision on whether-or-not to have a public demo but it is highly encouraged.
+									</td>
+								</tr>
+								</tbody>
+							</table>
+						</section>
+
+					</section>
+
+					<section>
+						<h1 id="go"> Go!! </h1>
+					</section>
+
+					<section>
+						<section>
+							<h2> Day 1 - Sprint Planning</h2>
+							<table class="sprint" summary="Sprint Planning" border="1">
+								<colgroup>
+									<col align="center">
+								</colgroup>
+								<thead valign="middle">
+								<tr class="agile-goal">
+									<th align="center" vertical-align="middle"> Goal </th>
+									<td align="left" valign="middle">
+										Agree on work to be completed during the sprint and create a plan to
+										achieve the goal by creating tasks that will meet the acceptance criteria
+										for each story in the sprint
+									</td>
+								</tr>
+								<tr class="agile-team">
+									<th align="center"> Team </th>
+									<td align="left" valign="middle">
+										Planning for the sprint by reviewing backlog, sizing and tasking
+									</td>
+								</tr>
+								<tr class="agile-devs">
+									<th align="center" valign="middle"> Devs </th>
+									<td align="left" valign="middle">
+										<ul>
+											<li> Take in work from the product backlog to be worked on this sprint </li>
+											<li> Task out the user stories and assign hours to the tasks </li>
+										</ul>
+									</td>
+								</tr>
+								<tr class="agile-pmo">
+									<th align="center" valign="middle"> Product Owner </th>
+									<td align="left" valign="middle">
+										Meeting with the team as requested and needed by the team
+									</td>
+								</tr>
+								<tr class="agile-sm">
+									<th align="center" valign="middle"> Scrum Master </th>
+									<td align="left" valign="middle">
+										<ul>
+											<li> Facilitating the planning and tasking meeting </li>
+											<li> Working with team on estimated sprint velocity and team capacity </li>
+											<li> Update Jira </li>
+										</ul>
+									</td>
+								</tr>
+								</thead>
+							</table>
+						</section>
+
+						<section>
+							<h2> Day 2 - Development</h2>
+							<table class="sprint" summary="Day 2 - Development" border="1">
+								<colgroup>
+									<col align="center">
+								</colgroup>
+								<thead valign="middle">
+								<tr class="agile-goal">
+									<th align="center" vertical-align="middle"> Goal </th>
+									<td align="left" valign="middle">
+										Begin Development
+									</td>
+								</tr>
+								<tr class="agile-team">
+									<th align="center"> Team </th>
+									<td align="left" valign="middle">
+										Daily Standup
+									</td>
+								</tr>
+								<tr class="agile-devs">
+									<th align="center" valign="middle"> Devs </th>
+									<td align="left" valign="middle">
+										Coding, creating test cases and design
+									</td>
+								</tr>
+								<tr class="agile-pmo">
+									<th align="center" valign="middle"> Product Owner </th>
+									<td align="left" valign="middle">
+										Re-rank backlog after changes made during planning
+									</td>
+								</tr>
+								<tr class="agile-sm">
+									<th align="center" valign="middle"> Scrum Master </th>
+									<td align="left" valign="middle">
+										Review sprint plan in tool to ensure it reflects the team's intent
+									</td>
+								</tr>
+								</thead>
+							</table>
+						</section>
+
+						<section>
+							<h2> Day 3 - Development</h2>
+							<table class="sprint" summary="Sprint Planning" border="1">
+								<colgroup>
+									<col align="center">
+								</colgroup>
+								<thead valign="middle">
+								<tr class="agile-goal">
+									<th align="center" vertical-align="middle"> Goal </th>
+									<td align="left" valign="middle">
+										Continue development
+									</td>
+								</tr>
+								<tr class="agile-team">
+									<th align="center"> Team </th>
+									<td align="left" valign="middle">
+										Daily stand-up
+									</td>
+								</tr>
+								<tr class="agile-devs">
+									<th align="center" valign="middle"> Devs </th>
+									<td align="left" valign="middle">
+										Coding, testing and design
+									</td>
+								</tr>
+								<tr class="agile-pmo">
+									<th align="center" valign="middle"> Product Owner </th>
+									<td align="left" valign="middle">
+										Prepare for backlog grooming session by ranking stories and making sure stories
+										are clear and ready for sizing by the team
+									</td>
+								</tr>
+								<tr class="agile-sm">
+									<th align="center" valign="middle"> Scrum Master </th>
+									<td align="left" valign="middle">
+										Work with Product Owner to prepare for backlog grooming session
+									</td>
+								</tr>
+								</thead>
+							</table>
+						</section>
+
+						<section>
+							<h2> Day 4 - Backlog Grooming</h2>
+							<table class="sprint" summary="Sprint Planning" border="1">
+								<colgroup>
+									<col align="center">
+								</colgroup>
+								<thead valign="middle">
+								<tr class="agile-goal">
+									<th align="center" vertical-align="middle"> Goal </th>
+									<td align="left" valign="middle">
+										Continue development and groom backlog
+									</td>
+								</tr>
+								<tr class="agile-team">
+									<th align="center"> Team </th>
+									<td align="left" valign="middle">
+										Daily stand-up
+									</td>
+								</tr>
+								<tr class="agile-devs">
+									<th align="center" valign="middle"> Devs </th>
+									<td align="left" valign="middle">
+										<ul>
+											<li> Coding, testing and design </li>
+											<li> Meet with Product Owner to review, update and size backlog </li>
+										</ul>
+									</td>
+								</tr>
+								<tr class="agile-pmo">
+									<th align="center" valign="middle"> Product Owner </th>
+									<td align="left" valign="middle">
+										Backlog grooming session
+									</td>
+								</tr>
+								<tr class="agile-sm">
+									<th align="center" valign="middle"> Scrum Master </th>
+									<td align="left" valign="middle">
+										Facilitate backlog grooming session
+									</td>
+								</tr>
+								</thead>
+							</table>
+						</section>
+
+						<section>
+							<h2> Day 5 - Development</h2>
+							<table class="sprint" summary="Sprint Planning" border="1">
+								<colgroup>
+									<col align="center">
+								</colgroup>
+								<thead valign="middle">
+								<tr class="agile-goal">
+									<th align="center" vertical-align="middle"> Goal </th>
+									<td align="left" valign="middle">
+										Continue development
+									</td>
+								</tr>
+								<tr class="agile-team">
+									<th align="center"> Team </th>
+									<td align="left" valign="middle">
+										Daily stand-up
+									</td>
+								</tr>
+								<tr class="agile-devs">
+									<th align="center" valign="middle"> Devs </th>
+									<td align="left" valign="middle">
+										Coding, testing and design
+									</td>
+								</tr>
+								<tr class="agile-pmo">
+									<th align="center" valign="middle"> Product Owner </th>
+									<td align="left" valign="middle">
+										Accept completed stories
+									</td>
+								</tr>
+								<tr class="agile-sm">
+									<th align="center" valign="middle"> Scrum Master </th>
+									<td align="left" valign="middle">
+										Review stories in backlog
+									</td>
+								</tr>
+								</thead>
+							</table>
+						</section>
+
+						<section>
+							<h2> Day 6 & 7 - Don’t Work!</h2>
+							<table class="sprint" summary="Sprint Planning" border="1">
+								<colgroup>
+									<col align="center">
+								</colgroup>
+								<thead valign="middle">
+								<tr class="agile-goal">
+									<th align="center" vertical-align="middle"> Goal </th>
+									<td align="left" valign="middle" class="fragment highlight-green">
+										Rest
+									</td>
+								</tr>
+								<tr class="agile-team">
+									<th align="center"> Team </th>
+									<td align="left" valign="middle">
+										Enjoy the weekend!
+									</td>
+								</tr>
+								<tr class="agile-devs">
+									<th align="center" valign="middle"> Devs </th>
+									<td align="left" valign="middle">
+										Eat
+									</td>
+								</tr>
+								<tr class="agile-pmo">
+									<th align="center" valign="middle"> Product Owner </th>
+									<td align="left" valign="middle">
+										Sleep
+									</td>
+								</tr>
+								<tr class="agile-sm">
+									<th align="center" valign="middle"> Scrum Master </th>
+									<td align="left" valign="middle">
+										Be Merry
+									</td>
+								</tr>
+								</thead>
+							</table>
+						</section>
+
+						<section>
+							<h2> Day 8 - Back to Work</h2>
+							<table class="sprint" summary="Sprint Planning" border="1">
+								<colgroup>
+									<col align="center">
+								</colgroup>
+								<thead valign="middle">
+								<tr class="agile-goal">
+									<th align="center" vertical-align="middle"> Goal </th>
+									<td align="left" valign="middle">
+										Continue development
+									</td>
+								</tr>
+								<tr class="agile-team">
+									<th align="center"> Team </th>
+									<td align="left" valign="middle">
+										Daily stand-up
+									</td>
+								</tr>
+								<tr class="agile-devs">
+									<th align="center" valign="middle"> Devs </th>
+									<td align="left" valign="middle">
+										Coding, testing and design
+									</td>
+								</tr>
+								<tr class="agile-pmo">
+									<th align="center" valign="middle"> Product Owner </th>
+									<td align="left" valign="middle">
+										Prepare for backlog grooming session
+									</td>
+								</tr>
+								<tr class="agile-sm">
+									<th align="center" valign="middle"> Scrum Master </th>
+									<td align="left" valign="middle">
+										Work with Product Owner to prepare for backlog grooming session
+									</td>
+								</tr>
+								</thead>
+							</table>
+						</section>
+
+						<section>
+							<h2> Day 9 - Backlog Grooming</h2>
+							<table class="sprint" summary="Sprint Planning" border="1">
+								<colgroup>
+									<col align="center">
+								</colgroup>
+								<thead valign="middle">
+								<tr class="agile-goal">
+									<th align="center" vertical-align="middle"> Goal </th>
+									<td align="left" valign="middle">
+										Continue development and groom backlog
+									</td>
+								</tr>
+								<tr class="agile-team">
+									<th align="center"> Team </th>
+									<td align="left" valign="middle">
+										Daily stand-up
+									</td>
+								</tr>
+								<tr class="agile-devs">
+									<th align="center" valign="middle"> Devs </th>
+									<td align="left" valign="middle">
+										<ul>
+											<li> Coding, testing and design. </li>
+											<li> Meet with Product Owner to review, update and size backlog </li>
+										</ul>
+									</td>
+								</tr>
+								<tr class="agile-pmo">
+									<th align="center" valign="middle"> Product Owner </th>
+									<td align="left" valign="middle">
+										Backlog grooming session
+									</td>
+								</tr>
+								<tr class="agile-sm">
+									<th align="center" valign="middle"> Scrum Master </th>
+									<td align="left" valign="middle">
+										Facilitate backlog grooming session
+									</td>
+								</tr>
+								</thead>
+							</table>
+						</section>
+
+						<section>
+							<h2> Day 10 - Development</h2>
+							<table class="sprint" summary="Sprint Planning" border="1">
+								<colgroup>
+									<col align="center">
+								</colgroup>
+								<thead valign="middle">
+								<tr class="agile-goal">
+									<th align="center" vertical-align="middle"> Goal </th>
+									<td align="left" valign="middle">
+										Continue development
+									</td>
+								</tr>
+								<tr class="agile-team">
+									<th align="center"> Team </th>
+									<td align="left" valign="middle">
+										Daily stand-up
+									</td>
+								</tr>
+								<tr class="agile-devs">
+									<th align="center" valign="middle"> Devs </th>
+									<td align="left" valign="middle">
+										Coding, testing and design
+									</td>
+								</tr>
+								<tr class="agile-pmo">
+									<th align="center" valign="middle"> Product Owner </th>
+									<td align="left" valign="middle">
+										Accept completed stories
+									</td>
+								</tr>
+								<tr class="agile-sm">
+									<th align="center" valign="middle"> Scrum Master </th>
+									<td align="left" valign="middle">
+										<ul>
+											<li> Review stories in backlog </li>
+											<li> Be an impediment removing machine as we head into the final stretch </li>
+										</ul>
+									</td>
+								</tr>
+								</thead>
+							</table>
+						</section>
+
+						<section>
+							<h2> Day 11 - Finish Strong!</h2>
+							<table class="sprint" summary="Sprint Planning" border="1">
+								<colgroup>
+									<col align="center">
+								</colgroup>
+								<thead valign="middle">
+								<tr class="agile-goal">
+									<th align="center" vertical-align="middle"> Goal </th>
+									<td align="left" valign="middle">
+										Code freeze
+									</td>
+								</tr>
+								<tr class="agile-team">
+									<th align="center"> Team </th>
+									<td align="left" valign="middle">
+										Daily tand-up
+									</td>
+								</tr>
+								<tr class="agile-devs">
+									<th align="center" valign="middle"> Devs </th>
+									<td align="left" valign="middle">
+										<ul>
+											<li> Finish coding & design </li>
+											<li> Final testing </li>
+										</ul>
+									</td>
+								</tr>
+								<tr class="agile-pmo">
+									<th align="center" valign="middle"> Product Owner </th>
+									<td align="left" valign="middle">
+										Accept completed stories
+									</td>
+								</tr>
+								<tr class="agile-sm">
+									<th align="center" valign="middle"> Scrum Master </th>
+									<td align="left" valign="middle">
+										<ul>
+											<li> Be an impediment removing machine as we close the sprint	</li>
+											<li> Work with Team and Product Owner to get final stories accepted </li>
+										</ul>
+									</td>
+								</tr>
+								</thead>
+							</table>
+						</section>
+
+						<section>
+							<h2> Day 12 - Inspect and Adapt </h2>
+							<table class="sprint" summary="Sprint Planning" border="1">
+								<colgroup>
+									<col align="center">
+								</colgroup>
+								<thead valign="middle">
+								<tr class="agile-goal">
+									<th align="center" vertical-align="middle"> Goal </th>
+									<td align="left" valign="middle">
+										Rest and reflect
+									</td>
+								</tr>
+								<tr class="agile-team">
+									<th align="center"> Team </th>
+									<td align="left" valign="middle">
+										<ul>
+											<li> Retrospective </li>
+											<li> Demo </li>
+										</ul>
+									</td>
+								</tr>
+								<tr class="agile-devs">
+									<th align="center" valign="middle"> Devs </th>
+									<td align="left" valign="middle">
+										<ul>
+											<li> Clean up tests </li>
+											<li> Write stories to pay down technical debt </li>
+										</ul>
+									</td>
+								</tr>
+								<tr class="agile-pmo">
+									<th align="center" valign="middle"> Product Owner </th>
+									<td align="left" valign="middle">
+										Accept completed stories
+									</td>
+								</tr>
+								<tr class="agile-sm">
+									<th align="center" valign="middle"> Scrum Master </th>
+									<td align="left" valign="middle">
+										<ul>
+											<li> Work with Team and Product Owner to get final stories accepted </li>
+											<li> Facilitate retrospective </li>
+											<li> Work with team on demo prep </li>
+										</ul>
+									</td>
+								</tr>
+								</thead>
+							</table>
+						</section>
+
+						<section>
+							<h2> Day 13 & 14 - Don’t Work!</h2>
+							<table class="sprint" summary="Sprint Planning" border="1">
+								<colgroup>
+									<col align="center">
+								</colgroup>
+								<thead valign="middle">
+								<tr class="agile-goal">
+									<th align="center" vertical-align="middle"> Goal </th>
+									<td align="left" valign="middle" class="fragment highlight-green">
+										Rest
+									</td>
+								</tr>
+								<tr class="agile-team">
+									<th align="center"> Team </th>
+									<td align="left" valign="middle">
+										Enjoy the weekend!
+									</td>
+								</tr>
+								<tr class="agile-devs">
+									<th align="center" valign="middle"> Devs </th>
+									<td align="left" valign="middle">
+										Eat
+									</td>
+								</tr>
+								<tr class="agile-pmo">
+									<th align="center" valign="middle"> Product Owner </th>
+									<td align="left" valign="middle">
+										Sleep
+									</td>
+								</tr>
+								<tr class="agile-sm">
+									<th align="center" valign="middle"> Scrum Master </th>
+									<td align="left" valign="middle">
+										Be Merry
+									</td>
+								</tr>
+								</thead>
+							</table>
+						</section>
+					</section>
+
+					<section>
+						<h1 id="rinse-repeat"> Rinse and repeat.. </h1>
+					</section>
+
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
